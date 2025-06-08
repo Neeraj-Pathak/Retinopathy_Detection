@@ -1,7 +1,3 @@
-Here's a professional and comprehensive **GitHub README.md** file for your project: **"Automatic Detection of Diabetic Retinopathy Using CNN"** based on the document you provided.
-
----
-
 ```markdown
 # 👁️ Automatic Detection of Diabetic Retinopathy Using CNN
 
@@ -9,21 +5,6 @@ A deep learning-based solution to automatically detect and classify the stages o
 
 ---
 
-## 📌 Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [System Requirements](#system-requirements)
-- [Project Architecture](#project-architecture)
-- [Modules](#modules)
-- [How to Run](#how-to-run)
-- [Results](#results)
-- [Future Enhancements](#future-enhancements)
-- [Contributors](#contributors)
-- [License](#license)
-
----
 
 ## 🧠 Introduction
 
@@ -68,59 +49,6 @@ Diabetic Retinopathy (DR) is a diabetes complication that affects the eyes and c
 
 ---
 
-## 🧬 Project Architecture
-
-```
-
-+------------------------+
-\| Upload DR Dataset      |
-+------------------------+
-|
-v
-+------------------------+
-\| Preprocess Images      |
-\| - Resize               |
-\| - Normalize            |
-\| - Train/Test Split     |
-+------------------------+
-|
-v
-+-------+--------------------------+
-|  Upload DR Dataset       |
-+--------------------------+
-            |
-            v
-+--------------------------+
-|   Preprocess Images      |
-|  (Resize, Normalize,     |
-|   Train/Test Split)      |
-+--------------------------+
-            |
-            v
-+--------------------------+      +--------------------------+
-|  Train ResNet101 Model   |<---->|  Train DenseNet121 Model |
-+--------------------------+      +--------------------------+
-            |                               |
-            +---------------+---------------+
-                            |
-                            v
-              +--------------------------+
-              |  Compare & Evaluate       |
-              |  (Accuracy, Loss, ConfMat)|
-              +--------------------------+
-                            |
-                            v
-              +--------------------------+
-              |   Predict New Images      |
-              +--------------------------+
-                            |
-                            v
-              +--------------------------+
-              |   GUI with Tkinter        |
-              +--------------------------+
-
-
----
 
 ## 📦 Modules
 
@@ -139,24 +67,20 @@ v
    ```bash
    git clone https://github.com/your-username/diabetic-retinopathy-cnn.git
    cd diabetic-retinopathy-cnn
-````
 
 2. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
-   ```
 
 3. Organize dataset as:
 
-   ```
    Dataset/
      └── train/
          ├── dr/
          └── nodr/
      └── valid/
      └── test/
-   ```
 
 4. Run the application:
 
