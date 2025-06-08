@@ -1,4 +1,3 @@
-```markdown
 # 👁️ Automatic Detection of Diabetic Retinopathy Using CNN
 
 A deep learning-based solution to automatically detect and classify the stages of Diabetic Retinopathy (DR) using retinal fundus images. This project uses Convolutional Neural Networks (CNN), U-Net segmentation, and denoising techniques to achieve high accuracy in DR detection and grading.
@@ -60,7 +59,7 @@ Diabetic Retinopathy (DR) is a diabetes complication that affects the eyes and c
 - **GUI**: Built using Tkinter
 
 ---
-
+```
 ## ▶️ How to Run
 
 1. Clone the repository:
@@ -87,8 +86,6 @@ Diabetic Retinopathy (DR) is a diabetes complication that affects the eyes and c
    ```bash
    python main.py
    ```
-
----
 
 ## 📊 Results
 
