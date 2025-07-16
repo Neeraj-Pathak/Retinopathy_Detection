@@ -91,7 +91,7 @@ Diabetic Retinopathy (DR) is a diabetes complication that affects the eyes and c
 
 * **Binary Classification Accuracy**: \~95%
 * **Multi-class Classification Accuracy**: \~85%
-* **Confusion Matrix**: Visualized in GUI
+* **Confusion Matrix**: Visualized in Graphical User Interface
 * **Prediction Output**: Overlay on test images
 
 ---
